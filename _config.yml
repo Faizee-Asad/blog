@@ -229,3 +229,12 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# Disable auto-generated robots.txt from jekyll-sitemap
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      sitemap: false
+
