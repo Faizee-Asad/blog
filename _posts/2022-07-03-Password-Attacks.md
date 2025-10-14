@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Understanding Password Attacks: A Beginner's Guide"
 date: 2022-07-03 12:00:00 +0530
 categories: [Cybersecurity]
