@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "How to Trace the Location of an Email Sender in Gmail"
 date: 2025-06-30 12:00:00 +0530
 categories: [Email Tracing, Cybersecurity]
