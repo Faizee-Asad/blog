@@ -1,8 +1,8 @@
 ---
 title: "About Me"
-icon: fas fa-user
-order: 4
 layout: page
+icon: "fas fa-user"
+order: 4
 permalink: /about/
 ---
 
