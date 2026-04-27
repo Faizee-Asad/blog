@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Claude Skills for Job Seekers by Asad Faizee"
 description: "Learn how to use Job Seeker Claude Skills by Asad Faizee to create a tailored resume, cover letter, recruiter message, interview prep pack, follow-up email, and job tracker with Claude."
 date: 2026-04-27 09:00:00 +0700
