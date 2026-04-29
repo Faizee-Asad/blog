@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "AI-Powered Phishing in 2026: How to Spot and Stop Smarter Cyber Attacks"
 date: 2026-04-30 00:00:00 +0000
 categories: [Cybersecurity, AI Security]
