@@ -4,8 +4,8 @@ title: "AI-Powered Phishing in 2026: How to Spot and Stop Smarter Cyber Attacks"
 date: 2026-04-30 00:00:00 +0000
 categories: [Cybersecurity, AI Security]
 tags: [ai phishing, cybersecurity, ethical hacking, social engineering, email security, phishing prevention, phishing resistant mfa]
-author: Asad Faizee
-description: "Learn how AI-powered phishing works in 2026, why modern phishing is harder to detect, and how individuals, 
+author: "Asad Faizee"
+description: "Learn how AI-powered phishing works in 2026, why modern phishing is harder to detect, and how individuals, businesses, and website owners can stay protected."
 ---
 
 # AI-Powered Phishing in 2026: How to Spot and Stop Smarter Cyber Attacks
