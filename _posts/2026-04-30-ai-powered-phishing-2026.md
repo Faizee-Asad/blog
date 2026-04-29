@@ -5,11 +5,7 @@ date: 2026-04-30 00:00:00 +0000
 categories: [Cybersecurity, AI Security]
 tags: [ai phishing, cybersecurity, ethical hacking, social engineering, email security, phishing prevention, phishing resistant mfa]
 author: Asad Faizee
-description: "Learn how AI-powered phishing works in 2026, why modern phishing is harder to detect, and how individuals, businesses, and website owners can stay protected."
-pin: false
-image:
-  path: /assets/img/posts/ai-powered-phishing-2026.jpg
-  alt: "AI-powered phishing attack illustration showing a fake email, login page, warning sign, and cybersecurity shield"
+description: "Learn how AI-powered phishing works in 2026, why modern phishing is harder to detect, and how individuals, 
 ---
 
 # AI-Powered Phishing in 2026: How to Spot and Stop Smarter Cyber Attacks
