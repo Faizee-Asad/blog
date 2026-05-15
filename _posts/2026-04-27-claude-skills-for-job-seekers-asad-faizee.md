@@ -1,16 +1,13 @@
 ---
 layout: post
-title: "Claude Skills for Job Seekers by Asad Faizee"
-description: "Learn how to use Job Seeker Claude Skills by Asad Faizee to create a tailored resume, cover letter, recruiter message, interview prep pack, follow-up email, and job tracker with Claude."
+title: "Claude Skills for Job Seekers"
+description: "Learn how to use Job Seeker Claude Skills to create a tailored resume, cover letter, recruiter message, interview prep pack, follow-up email, and job tracker with Claude."
 date: 2026-04-27 09:00:00 +0700
 categories: [AI, Career]
 tags: [claude skills, job seeker, resume optimizer, cover letter, interview prep, claude code, asad faizee]
 ---
 
 # Claude Skills for Job Seekers by Asad Faizee
-
-**Primary SEO keyword:** Claude Skills for Job Seekers  
-**GitHub project:** [Job Seeker Claude Skills by Asad Faizee](https://github.com/Faizee-Asad/job-seeker-claude-skills)
 
 Job hunting is stressful. You need to read the job description, update your resume, write a cover letter, prepare for interviews, send follow-up emails, and track every application.
 
@@ -74,8 +71,6 @@ For example, you may ask Claude to improve your resume, but forget to ask for:
 A Claude Skill solves this by giving Claude a fixed workflow.
 
 Think of it like a checklist inside Claude. When the skill is used, Claude knows the process and can guide you from start to finish.
-
-This is why **Claude Skills for Job Seekers** is a strong keyword and a good topic for a Chirpy Starter blog post. People are searching for practical AI job search workflows, Claude resume tools, and Claude Code skills. This article targets those search intents in simple words.
 
 ---
 
@@ -429,8 +424,6 @@ This project gives you a repeatable system:
 - track applications
 
 This is a better workflow than randomly asking AI for resume help.
-
-It also gives Asad Faizee a strong open-source project around **Claude Skills for Job Seekers**, **Claude resume optimizer**, and **AI job application workflow**.
 
 ---
 
