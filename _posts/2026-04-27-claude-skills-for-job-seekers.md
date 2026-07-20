@@ -7,7 +7,7 @@ categories: [AI, Career]
 tags: [claude skills, job seeker, resume optimizer, cover letter, interview prep, claude code, asad faizee]
 ---
 
-# Claude Skills for Job Seekers by Asad Faizee
+# Claude Skills for Job Seekers
 
 Job hunting is stressful. You need to read the job description, update your resume, write a cover letter, prepare for interviews, send follow-up emails, and track every application.
 
