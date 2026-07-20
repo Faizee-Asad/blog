@@ -240,3 +240,7 @@ defaults:
     values:
       sitemap: false
 
+assets:
+  self_host:
+    enabled: false
+
