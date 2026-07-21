@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Trace an Email Location in Gmail - Step-by-Step 2026
+title: "How to Trace an Email Location in Gmail - Step-by-Step 2026"
 description: Learn how to trace an email location in Gmail using email headers and free OSINT tools with this step-by-step cybersecurity guide."
 date: 2026-07-20 12:00:00 +0530
 author: Asad Faizee
