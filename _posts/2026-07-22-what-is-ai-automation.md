@@ -4,7 +4,7 @@ layout: post
 title: "What Is AI Automation for Small Business? Benefits, Examples & Getting Started (2026)"
 description: "Learn what AI automation for small businesses is, how it works, real-world use cases, key benefits, common myths, and the best AI tools to save time and grow your business."
 
-date: 2026-07-22 12:00:00 +0530
+date: 2026-07-21
 author: Asad Faizee
 
 categories:
