@@ -5,7 +5,7 @@ description: Learn how to trace an email location in Gmail using email headers a
 date: 2026-07-20 12:00:00 +0530
 author: Asad Faizee
 categories: [Email Tracing, Cybersecurity]
-tags:[gmail, email-tracking, email-header, ip-tracking, osint
+tags:[gmail, email-tracking, email-header, ip-tracking, osint]
 image:
   path: /assets/img/posts/email-tracing.webp
   alt: How to Trace an Email Location in Gmail
