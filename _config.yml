@@ -28,7 +28,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://blog.asadfaizee.is-a.dev/"
+url: "https://blog.asadfaizee.is-a.dev"
 
 
 github:
@@ -233,12 +233,7 @@ jekyll-archives:
     category: /categories/:name/
 
 # Disable auto-generated robots.txt from jekyll-sitemap
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      sitemap: false
+
 
 assets:
   self_host:
