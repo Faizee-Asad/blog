@@ -8,7 +8,7 @@ categories: [Email Tracing, Cybersecurity]
 tags:[gmail, email-tracking, email-header, ip-tracking, osint]
 image:
   path: /assets/img/posts/email-tracing.webp
-  alt: How to Trace an Email Location in Gmail
+  alt: "How to Trace an Email Location in Gmail"
 pin: false
 comments: true
 ---
