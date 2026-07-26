@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "How to Scrape Leads from Instagram, TikTok & LinkedIn for Free (No API Key Required)"
+title: "How to Scrape Leads from Instagram, TikTok & LinkedIn for Free"
 description: "Learn how to scrape verified leads from Instagram, TikTok, LinkedIn, GitHub, YouTube, and more using Scout. Discover free email verification, SMTP validation, bulk scraping, lead scoring, and CSV export without any paid API."
 
 date: 2026-07-27 10:00:00 +0530
@@ -33,7 +33,7 @@ pin: false
 comments: true
 ---
 
-# How to scrape leads from Instagram, TikTok, and LinkedIn for free (no API key needed)
+# How to scrape leads from Instagram, TikTok, and LinkedIn for free
 
 Appointment setters spend hours hunting contact info. Scout cuts that to minutes. It's a free, open-source Python CLI tool that pulls leads from 8 social media platforms, verifies email addresses without any paid subscription, scores each contact, and exports everything to a CSV file ready for outreach.
 
@@ -214,6 +214,3 @@ Teams needing a shared dashboard, CRM integrations, or multi-user workflows will
 - Randomized 1.5 to 4.5 second scrape delay with 10-signature user-agent rotation
 - Optional Hunter.io integration, optional proxy support (single, file, or free)
 - *hiQ Labs v. LinkedIn* (9th Circuit, 2022) established the legal basis for scraping public profile data
-
-**GitHub:** [github.com/kiryano/Scout](https://github.com/kiryano/Scout)  
-
