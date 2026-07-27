@@ -4,7 +4,7 @@ layout: post
 title: "How to Scrape Leads from Instagram, TikTok & LinkedIn for Free"
 description: "Learn how to scrape verified leads from Instagram, TikTok, LinkedIn, GitHub, YouTube, and more using Scout. Discover free email verification, SMTP validation, bulk scraping, lead scoring, and CSV export without any paid API."
 
-date: 2026-07-27 10:00:00 +0530
+date: 2026-07-27
 author: Asad Faizee
 
 categories:
