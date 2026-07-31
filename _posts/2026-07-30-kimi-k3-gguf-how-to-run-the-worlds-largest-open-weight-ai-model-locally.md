@@ -33,7 +33,7 @@ pin: false
 comments: true
 ---
 
-# Kimi K3 GGUF - how to run the world's largest open-weight AI model locally
+# Kimi K3 GGUF: how to run the world's largest open-weight AI model locally
 
 Moonshot AI's Kimi K3 is the largest open-weight model ever released. At 2.8 trillion parameters, it rivals proprietary frontier models while its weights are free to download. Unsloth's GGUF quantizations, published July 29, 2026, make it runnable on local hardware. But "local" means something specific here: you'll need hundreds of gigabytes of RAM, not a gaming PC.
 
@@ -57,7 +57,9 @@ Kimi K3 uses 2 architectural innovations that set it apart from standard transfo
 
 <cite index="10-1">It uses Kimi Delta Attention (KDA) for 3 of every 4 attention layers. KDA is a linear attention mechanism: rather than comparing each new token to every previous token, it maintains a fixed-size memory that updates as it reads input. In Kimi Linear, an experimental model released in 2025, KDA cut memory use by up to 75% and multiplied output speed by up to 6 times at input lengths of 1 million tokens.</cite>
 
-The second piece is the Mixture of Experts design. <cite index="15-1">K3 activates just 16 of its 896 experts per token, roughly 1.8% of the pool.</cite> That's 104 billion active parameters per forward pass, despite the 2.8 trillion total. This is what makes the model practical to serve at all, and why it can generate useful output at a fraction of the compute cost of a dense 2.8T model.
+If you're new to how attention mechanisms work under the hood, [this breakdown of how LLMs actually work](https://blog.asadfaizee.is-a.dev/posts/how-do-llm-actually-work/) covers the transformer basics in plain English before you go deeper into K3's architecture.
+
+The second piece is the Mixture of Experts design. <cite index="15-1">K3 activates just 16 of its 896 experts per token, roughly 1.8% of the pool.</cite> That's 104 billion active parameters per forward pass, despite the 2.8 trillion total. This is what makes the model practical to serve at all, and why it can generate useful output at a fraction of the compute cost of a dense 2.8T model. The same MoE principle is what powers experimental frontier architectures like [OpenMythos](https://blog.asadfaizee.is-a.dev/posts/Claude-Mythos/), which pairs it with looped transformers for silent latent-space reasoning.
 
 <cite index="10-1">Moonshot said these changes, along with a sparser MoE design and improved training recipes, made training about 2.5 times as efficient as Kimi K2's training runs, measured in model improvement per unit of compute.</cite>
 
