@@ -65,7 +65,7 @@ Sticky notes work for topics where several ideas relate to each other but none o
 
 The visual structure (scattered notes with arrows connecting them) mimics the non-linear way these concepts actually relate.
 
-![Sticky notes](/assets/posts/chatgpt-image-generation-prompts/sticky.png)
+![Sticky notes](/assets/img/posts/chatgpt-image-generation-prompts/sticky.png)
 
 **Prompt that created this:**
 ```
@@ -87,7 +87,7 @@ Clean background, vibrant colors.
 
 Handwritten notebooks suit topics with rules, formulas, or lookup tables. Linux permissions. CSS selectors. Git commands. The handwritten format signals "this is worth writing down," which is the right mental register for foundational reference material.
 
-![Handwritten notebook](/assets/posts/chatgpt-image-generation-prompts/handwritten.png)
+![Handwritten notebook](/assets/img/posts/chatgpt-image-generation-prompts/handwritten.png)
 
 **Prompt that created this:**
 ```
@@ -109,7 +109,7 @@ and underlined headings.
 
 Whiteboards work for anything you'd diagram live in front of a class. SQL injection, network attacks, API request flows. The format communicates "let me show you how this works" rather than "here's what this is."
 
-![Whiteboard](/assets/posts/chatgpt-image-generation-prompts/whiteboard.png)
+![Whiteboard](/assets/img/posts/chatgpt-image-generation-prompts/whiteboard.png)
 
 **Prompt that created this:**
 ```
@@ -131,7 +131,7 @@ arrows showing where the exploit enters the query. Include the classic
 
 Architecture diagrams are non-negotiable for distributed systems. Kubernetes. Microservices. Cloud infrastructure. These topics have components that need to be placed spatially relative to each other, with labeled connections.
 
-![Architecture diagram](/assets/posts/chatgpt-image-generation-prompts/architecture.png)
+![Architecture diagram](/assets/img/posts/chatgpt-image-generation-prompts/architecture.png)
 
 **Prompt that created this:**
 ```
@@ -153,7 +153,7 @@ directional arrows. Clean, professional style. No decorative elements.
 
 Flowcharts belong to anything with a sequence: OAuth 2.0, API authentication, CI/CD pipelines, user signup flows. If there's a "yes/no" decision or a loop in the process, a flowchart is the right tool.
 
-![Flowchart](/assets/posts/chatgpt-image-generation-prompts/flowchart.png)
+![Flowchart](/assets/img/posts/chatgpt-image-generation-prompts/flowchart.png)
 
 **Prompt that created this:**
 ```
@@ -176,7 +176,7 @@ Clean white background, color-coded by actor.
 
 Mind maps fit topics that have a clear center and branches that keep splitting. Active Directory. Network OSI model. Python data structures. The format works when the hierarchy is the concept.
 
-![Mind](/assets/posts/chatgpt-image-generation-prompts/mind.png)
+![Mind](/assets/img/posts/chatgpt-image-generation-prompts/mind.png)
 
 **Prompt that created this:**
 ```
@@ -198,7 +198,7 @@ color-coded branches, and readable labels. Professional, not decorative.
 
 Cheat sheets are reference cards. Linux commands, SQL syntax, Docker commands, Git shortcuts. The goal is information density without sacrificing readability. Nobody reads a cheat sheet. They scan it.
 
-![Cheat sheet](/assets/posts/chatgpt-image-generation-prompts/cheat.png)
+![Cheat sheet](/assets/img/posts/chatgpt-image-generation-prompts/cheat.png)
 
 **Prompt that created this:**
 ```
@@ -221,7 +221,7 @@ Compact layout, maximum information per square inch.
 
 Infographics suit topics where you need to show all parts at once, with relationships between layers. TCP/IP. The HTTP request lifecycle. How DNS resolution works. The goal is a bird's-eye view that makes the whole system scannable in one look.
 
-![Infographic](/assets/posts/chatgpt-image-generation-prompts/infographic.png)
+![Infographic](/assets/img/posts/chatgpt-image-generation-prompts/infographic.png)
 
 **Prompt that created this:**
 ```
@@ -244,7 +244,7 @@ short labels. Light background.
 
 Blueprints communicate precision and scale. They're the right format for GPT architecture, database schema, API design, or any engineering spec that needs to convey "this was designed carefully." The blueprint aesthetic signals technical depth.
 
-![Blueprint](/assets/posts/chatgpt-image-generation-prompts/blueprint.png)
+![Blueprint](/assets/img/posts/chatgpt-image-generation-prompts/blueprint.png)
 
 **Prompt that created this:**
 ```
@@ -268,7 +268,7 @@ Clean, technical, precise.
 
 Classroom notes work for anything introductory. Machine learning basics. How the internet works. What a database is. The format signals "we're starting from the beginning." It's inviting rather than intimidating, which is the right register for foundational content.
 
-![Classroom notes](/assets/posts/chatgpt-image-generation-prompts/classroom.png)
+![Classroom notes](/assets/img/posts/chatgpt-image-generation-prompts/classroom.png)
 
 **Prompt that created this:**
 ```
