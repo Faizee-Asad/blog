@@ -315,4 +315,52 @@ The format is part of the explanation. A flowchart of Active Directory hierarchy
 
 Pick based on the shape of the concept. If it's a sequence: flowchart. If it's a hierarchy: mind map. If it's a system with components: architecture diagram. If it's commands: cheat sheet. If it's layers: infographic. If it's foundational: classroom notes.
 
-Match the visual structure to the conceptual structure. That's when these images stop being decorative and start being useful.
+Match the visual structure to the conceptual structure. That's when these images stop being decorative and start being uprompt
+
+---
+## more prompts
+
+```
+/image infographic
+/image handwritten notes
+/image sticky notes
+/image whiteboard explanation
+/image mind map
+/image flowchart
+/image concept map
+/image cheat sheet
+/image flashcards
+/image blueprint
+/image architecture diagram
+/image timeline
+/image roadmap
+/image decision tree
+/image comparison table
+/image notebook page
+/image classroom notes
+/image textbook illustration
+/image poster
+/image presentation slide
+/image comic style
+/image pixel art
+/image isometric illustration
+/image 3D render
+/image cyberpunk
+/image minimal flat design
+/image glassmorphism
+/image neon style
+/image chalkboard notes
+/image terminal UI
+/image dashboard UI
+/image Figma mockup
+/image wireframe
+/image anime style
+/image watercolor
+/image oil painting
+/image pencil sketch
+/image realistic photo
+/image magazine cover
+/image LinkedIn carousel
+/image X (Twitter) infographic
+/image YouTube thumbnail
+'''
