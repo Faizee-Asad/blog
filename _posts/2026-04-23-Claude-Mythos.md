@@ -1,12 +1,20 @@
 ---
-
 layout: post
 title: "Claude Mythos Explained: What Is OpenMythos?"
 date: 2026-04-23 10:00:00 +0530
-description: "Explore Claude Mythos and OpenMythos, an independent open-source theoretical reconstruction. Understand recurrent-depth transformers, Mixture of Experts, and how the experimental architecture works."
-categories: [Artificial Intelligence]
-tags: [Claude Mythos, OpenMythos, Anthropic, AI Architecture, Transformer Models, Open Source AI, Machine Learning]
+description: "Explore Claude Mythos and OpenMythos, an independent open-source theoretical reconstruction. Understand recurrent-depth transformers, Mixture of Experts, and the experimental architecture."
+categories:
+  - Artificial Intelligence
+tags:
+  - Claude Mythos
+  - OpenMythos
+  - Anthropic
+  - AI Architecture
+  - Transformer Models
+  - Open Source AI
+  - Machine Learning
 permalink: /posts/Claude-Mythos/
+---
 
 Claude Mythos Explained: What Is OpenMythos?
 
