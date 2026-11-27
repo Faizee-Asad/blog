@@ -4,6 +4,10 @@ title: "How to Start a Blog with GitHub Pages and Jekyll"
 date: 2023-06-01 20:14 +0300
 categories: [Blogging, Tutorial]
 tags: [github-pages, blog, personal blog, jekyll, static website]
+image:
+  path: /assets/img/posts/start-a-blog-jekyll.webp
+  alt: "Start a Blog with GitHub Pages and Jekyll cover showing a laptop with a blog homepage"
+
 ---
 
 ## How to Start a Blog with GitHub Pages and Jekyll

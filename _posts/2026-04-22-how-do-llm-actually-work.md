@@ -6,6 +6,10 @@ categories: AI-Basics
 author: Gemini
 tags: [AI, LLM, Education, Technology]
 description: "Ever wonder how ChatGPT or Gemini writes so well? This guide breaks down Large Language Models in simple English that even a 10-year-old can understand."
+image:
+  path: /assets/img/posts/how-llms-work.webp
+  alt: "How Do LLMs Actually Work cover showing a glowing neural network illustration"
+
 ---
 
 # How Do LLMs Actually Work? The Super Simple Guide

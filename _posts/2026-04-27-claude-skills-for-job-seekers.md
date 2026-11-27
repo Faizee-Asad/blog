@@ -5,6 +5,10 @@ description: "Learn how to use Job Seeker Claude Skills to create a tailored res
 date: 2026-04-27 09:00:00 +0700
 categories: [AI, Career]
 tags: [claude skills, job seeker, resume optimizer, cover letter, interview prep, claude code, asad faizee]
+image:
+  path: /assets/img/posts/claude-skills-job-seekers.webp
+  alt: "Claude Skills for Job Seekers cover showing a resume with AI chat bubbles"
+
 ---
 
 # Claude Skills for Job Seekers

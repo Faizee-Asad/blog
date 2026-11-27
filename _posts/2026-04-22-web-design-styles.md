@@ -6,6 +6,10 @@ author: Asad Faizee
 categories: [Web Design, Digital Strategy]
 tags: [Minimalism, Glassmorphism, Bento Grid, UX Design]
 description: "Explore trending Web Design Styles to elevate your brand. Asad Faizee offers expert web development service to build modern, high-converting digital platforms."
+image:
+  path: /assets/img/posts/web-design-styles.webp
+  alt: "Best Web Design Styles cover showing website layout mockups in different design styles"
+
 ---
 
 # Mastering Modern Web Design Styles for Digital Success

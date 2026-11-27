@@ -6,6 +6,10 @@ categories: [AI, Healthcare]
 tags: [claude skills, claude code, claude desktop, unani medicine, clinical documentation, open source, ai for doctors, bums students]
 comments: true
 description: "A simple guide for doctors, BUMS students, and clinic teams to install, use, and manage the open-source Unani Clinical Assistant Claude Skill in Claude Code and Claude Desktop."
+image:
+  path: /assets/img/posts/unani-clinical-assistant.webp
+  alt: "Unani Clinical Assistant cover showing Unani herbs with an AI medical documentation tablet"
+
 ---
 
 # How to Use Unani Clinical Assistant Claude Skill in Claude Code and Claude Desktop

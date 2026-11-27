@@ -5,6 +5,10 @@ date: 2022-07-03 12:00:00 +0530
 categories: [Cybersecurity]
 tags: [password attack, bruteforce, dictionary, hybrid, rainbow table, credential stuffing]
 comments: true
+image:
+  path: /assets/img/posts/password-attacks.webp
+  alt: "Password Attacks beginner guide cover showing a padlock and keyboard with brute force attempts"
+
 ---
 
 Cybersecurity professionals and attackers both rely on understanding how passwords can be broken. This blog explains common types of **password attacks** used in the real world.
