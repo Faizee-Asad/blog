@@ -910,3 +910,9 @@ Read the safety files, upload the Skill, test it with de-identified examples, an
 - [Claude Code overview](https://code.claude.com/docs/en/overview)
 - [Claude Code Desktop documentation](https://code.claude.com/docs/en/desktop)
 - [Anthropic Skills GitHub repository](https://github.com/anthropics/skills)
+
+## Keep reading
+
+- [Claude Skills for Job Seekers](/posts/claude-skills-for-job-seekers/)
+- [Matt Pocock's Skills: 27 AI Agent Skills for Claude Code, Codex & Copilot](/posts/matt-pocock-skills-claude-code-codex/)
+- [ChatGPT Study Notes Prompts: 25+ Copy-Paste Examples for Students](/posts/chatgpt-study-notes-prompts/)

@@ -240,3 +240,8 @@ Lossless `UD-Q8_K_XL` at 1,560 GB matches the original MXFP4 precision exactly. 
 
 **GGUF repository:** [huggingface.co/unsloth/Kimi-K3-GGUF](https://huggingface.co/unsloth/Kimi-K3-GGUF)  
 **Run guide:** [unsloth.ai/docs/models/kimi-k3](https://unsloth.ai/docs/models/kimi-k3)
+
+## Keep reading
+
+- [DeepSeek-V4-Flash-0731 GGUF: Run a 284B AI Model Locally with Just 110 GB RAM](/posts/deepseek-v4-flash-0731-gguf-run-284b-ai-model-locally/)
+- [Arete-27B-GGUF: run Nous Research's 27B value-tuned model as a local LLM (2026 guide)](/posts/arete-27b-gguf-local-llm-guide/)

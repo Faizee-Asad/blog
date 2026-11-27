@@ -749,3 +749,11 @@ Stay alert. Stay curious. Stay secure.
 - [Microsoft: AI-enabled device code phishing campaign](https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/)
 - [Hoxhunt: Phishing Trends Report updated for 2026](https://hoxhunt.com/guide/phishing-trends-report)
 - [CISA: Implementing phishing-resistant MFA](https://www.cisa.gov/resources-tools/resources/implementing-phishing-resistant-mfa)
+
+## Keep reading
+
+- [Understanding Password Attacks: A Beginner's Guide](/posts/Password-Attacks/)
+- [How I Found CVE-2021-29115 Using FFUF in Minutes (Bug Bounty Walkthrough)](/posts/CVE-2021-29115/)
+- [xss-decision: a 0.8B AI model that triages XSS vulnerabilities on your laptop (2026 guide)](/posts/xss-decision-ai-pentesting-model-guide/)
+- [How to Trace an Email Location in Gmail - Step-by-Step (2026)](/posts/trace-email-location-gmail/)
+- [Set Up a Hidden IRC Chat Server with Tor + irssi + InspIRCd](/posts/IRC-Chat/)

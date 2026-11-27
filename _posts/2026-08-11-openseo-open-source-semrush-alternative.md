@@ -194,4 +194,9 @@ For teams, the hosted version at $10 and no per-seat pricing means a 5-person ag
 - **Ahrefs comparison:** $129/month Lite, now per-seat since March 2026
 - **Discord:** [discord.gg/c9uGs3cFXr](https://discord.gg/c9uGs3cFXr)
 
+## Keep reading
 
+- [What Is AI Automation for Small Business? Benefits, Examples & Getting Started (2026)](/posts/what-is-ai-automation/)
+- [How to Scrape Leads from Instagram, TikTok & LinkedIn for Free](/posts/how-to-scrape-leads-for-free-with-scout/)
+- [Master the Best Web Design Styles for Your Online Success](/posts/web-design-styles/)
+- [Lightpanda: The Lightweight Headless Browser for AI Agents (123MB vs Chrome's 2GB)](/posts/lightpanda-lightweight-headless-browser-ai-agents/)

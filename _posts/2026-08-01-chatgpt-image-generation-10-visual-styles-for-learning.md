@@ -364,3 +364,10 @@ Match the visual structure to the conceptual structure. That's when these images
 /image X (Twitter) infographic
 /image YouTube thumbnail
 '''
+
+## Keep reading
+
+- [Oil-Motion: AI-Powered Scroll and Mouse Animations for Websites](/posts/oil-motion-ai-web-animations/)
+- [God's Eye View: track live flights, ships and satellites on an open-source 3D globe (2026 guide)](/posts/gods-eye-view-live-tracking-guide/)
+- [AQI.in Explained: How to Check Live Air Quality in India (2026)](/posts/aqi-in-live-air-quality-india-guide/)
+- [How to Start a Blog with GitHub Pages and Jekyll](/posts/how-to-start-a-blog-with-github-pages-and-jekyll/)

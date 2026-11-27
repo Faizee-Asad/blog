@@ -243,3 +243,8 @@ Yes. The code is Apache-2.0. You still need the Kimi K3 checkpoint, which is a 1
 - **Verification:** weightless `make test` matches a PyTorch reference on 3 gates
 - **Platforms:** Linux x86-64 reference, macOS/arm64 and Windows/x86-64 as of v1.1.0
 - **Related guide:** [Kimi K3 GGUF: how to run the world's largest open-weight AI model locally](https://blog.asadfaizee.is-a.dev/posts/kimi-k3-gguf-how-to-run-the-worlds-largest-open-weight-ai-model-locally/)
+
+## Keep reading
+
+- [DeepSeek-V4-Flash-0731 GGUF: Run a 284B AI Model Locally with Just 110 GB RAM](/posts/deepseek-v4-flash-0731-gguf-run-284b-ai-model-locally/)
+- [OpenMausBot: Open-Source Grok Bot Alternative You Can Self-Host](/posts/openmausbot-open-source-grok-bot-alternative/)

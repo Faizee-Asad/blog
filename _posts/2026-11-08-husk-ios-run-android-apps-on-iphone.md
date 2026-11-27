@@ -173,3 +173,10 @@ Husk has its own Store tab with app pages, descriptions, screenshots and trailer
 **Sources:** [Husk GitHub repository](https://github.com/Leviidev/Husk) · [Husk releases](https://github.com/Leviidev/Husk/releases) · [Husk install guide](https://itslevii.dev/docs/install) · [Husk architecture docs](https://github.com/Leviidev/Husk/blob/main/docs/00-architecture.md) · [Apple Developer News on guideline 4.7](https://developer.apple.com/news/?id=0kjli9o1) · [StatCounter mobile OS market share](https://gs.statcounter.com/os-market-share/mobile/) · [cert.fish on free Apple Account signing limits](https://cert.fish/guide/methods/free-apple-account) · [TrollStore wiki](https://github.com/opa334/TrollStore/wiki)
 
 ---
+
+## Keep reading
+
+- [PhoneBox Guide: Turn Your Old Android Phone into a PC Dashboard (2026)](/posts/reuse-old-android-phone-phonebox-dashboard/)
+- [Atomic Chat: Run Local LLMs Offline on Your Laptop or Phone (2026 Guide)](/posts/atomic-chat-offline-ai-chatbot-local-llm/)
+- [Pinky: let AI agents use your iPhone or Android phone, with a human approval gate (2026 guide)](/posts/pinky-ai-phone-agent-mcp-guide/)
+- [Mailflare: A Self-Hosted Google Workspace Alternative](/posts/mailflare-self-hosted-google-workspace-alternative/)

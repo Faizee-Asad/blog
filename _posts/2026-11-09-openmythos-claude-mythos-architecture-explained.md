@@ -271,3 +271,11 @@ Yes. It uses the MIT license.
 - **Weights:** none released
 - **Status of the claim:** a hypothesis, since Anthropic hasn't published Mythos's architecture
 - **Beginner guide:** [What is OpenMythos? A simple guide](https://blog.asadfaizee.is-a.dev/posts/Claude-Mythos)
+
+## Keep reading
+
+- [How Do LLMs Actually Work? The Super Simple Guide for 2026](/posts/how-do-llm-actually-work/)
+- [Arete-27B-GGUF: run Nous Research's 27B value-tuned model as a local LLM (2026 guide)](/posts/arete-27b-gguf-local-llm-guide/)
+- [AI Jailbreaks Explained: How They Work and How to Defend Against Them](/posts/ai-jailbreaks-explained-how-to-defend/)
+- [AI Jailbreak Prompts: Inside the 12,741-Star GitHub Repo](/posts/ai-jailbreak-prompts-github-collection/)
+- [SuperBot: David Ondrej's open-source Grok Bot alternative you can self-host (2026 guide)](/posts/superbot-open-source-ai-team-rust/)
