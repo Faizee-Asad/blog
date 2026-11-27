@@ -10,8 +10,15 @@ sitemap: false
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
   </url>
 {% endfor %}
+{% for tab in site.tabs %}
+  <url>
+    <loc>{{ tab.url | absolute_url | xml_escape }}</loc>
+  </url>
+{% endfor %}
 {% for page in site.pages %}
   {% if page.sitemap == false %}{% continue %}{% endif %}
+  {% assign last_char = page.url | slice: -1 %}
+  {% if last_char != "/" %}{% continue %}{% endif %}
   {% if page.url contains "/tags/" and page.url != "/tags/" %}{% continue %}{% endif %}
   {% if page.url contains "/categories/" and page.url != "/categories/" %}{% continue %}{% endif %}
   {% assign url_start = page.url | slice: 0, 5 %}
