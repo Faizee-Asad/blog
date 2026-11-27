@@ -12,7 +12,8 @@ sitemap: false
 {% endfor %}
 {% for page in site.pages %}
   {% if page.sitemap == false %}{% continue %}{% endif %}
-  {% if page.url contains "/tags/" %}{% continue %}{% endif %}
+  {% if page.url contains "/tags/" and page.url != "/tags/" %}{% continue %}{% endif %}
+  {% if page.url contains "/categories/" and page.url != "/categories/" %}{% continue %}{% endif %}
   {% assign url_start = page.url | slice: 0, 5 %}
   {% if url_start == "/page" %}{% continue %}{% endif %}
   <url>
