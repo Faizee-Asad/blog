@@ -28,7 +28,7 @@ tags:
   - ai learning
 
 image:
-  path: /assets/img/posts/chatgpt-image-generation-prompts.webp
+  path: /assets/img/posts/chatgpt-image-generation.webp
   alt: "ChatGPT Image Generation - 10 Visual Styles for Learning"
 
 pin: false
