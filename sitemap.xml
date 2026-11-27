@@ -1,0 +1,25 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for post in site.posts %}
+  <url>
+    <loc>{{ post.url | absolute_url | xml_escape }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  </url>
+{% endfor %}
+{% for page in site.pages %}
+  {% if page.sitemap == false %}{% continue %}{% endif %}
+  {% if page.url contains "/tags/" %}{% continue %}{% endif %}
+  {% assign url_start = page.url | slice: 0, 5 %}
+  {% if url_start == "/page" %}{% continue %}{% endif %}
+  <url>
+    <loc>{{ page.url | absolute_url | xml_escape }}</loc>
+    {% if page.last_modified_at %}
+    <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+    {% endif %}
+  </url>
+{% endfor %}
+</urlset>
