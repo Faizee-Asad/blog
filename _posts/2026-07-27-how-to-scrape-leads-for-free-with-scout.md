@@ -11,19 +11,7 @@ categories:
   - Lead Generation
   - OSINT
 
-tags:
-  - scout
-  - lead generation
-  - instagram scraping
-  - tiktok scraping
-  - linkedin scraping
-  - email verification
-  - smtp verification
-  - osint
-  - python
-  - github
-  - appointment setters
-  - csv export
+tags: [scout, lead generation, instagram scraping, linkedin scraping, email verification]
 
 image:
   path: /assets/img/posts/scout-lead-scraper.webp

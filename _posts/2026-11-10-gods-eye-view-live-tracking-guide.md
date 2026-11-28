@@ -9,25 +9,7 @@ categories:
   - AI Tools
   - Open Source
 
-tags:
-  - God's Eye View
-  - live flight tracker
-  - flight tracking
-  - ADS-B
-  - ship tracking
-  - AIS
-  - satellite tracker
-  - earthquake map
-  - OSINT tools
-  - 3D globe
-  - Cesium
-  - OpenStreetMap
-  - OpenSky Network
-  - geospatial intelligence
-  - open source
-  - Pinokio
-  - developer tools
-  - public data
+tags: [God's Eye View, live flight tracker, ship tracking, satellite tracker, OSINT tools]
 
 image:
   path: /assets/img/posts/gods-eye-view-3d-globe-live-tracking.webp

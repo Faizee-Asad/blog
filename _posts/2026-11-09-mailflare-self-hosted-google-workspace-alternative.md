@@ -11,27 +11,7 @@ categories:
   - Open Source
   - Self Hosting
 
-tags:
-  - Mailflare
-  - Google Workspace alternative
-  - self-hosted email
-  - open source email
-  - custom domain email
-  - Cloudflare Workers
-  - Cloudflare Email Routing
-  - Docker
-  - self-hosted Google Workspace
-  - email hosting
-  - email server
-  - email management
-  - AI agents
-  - MCP
-  - Cloudflare R2
-  - Resend
-  - Amazon SES
-  - Google Workspace alternative for small business
-  - Gmail alternative
-  - calendar and booking software
+tags: [Mailflare, Google Workspace alternative, self-hosted email, custom domain email, Cloudflare Workers]
 
 image:
   path: /assets/img/posts/mailflare-self-hosted-google-workspace-alternative.webp

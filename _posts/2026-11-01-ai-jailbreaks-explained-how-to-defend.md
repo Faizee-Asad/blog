@@ -11,22 +11,7 @@ categories:
   - AI Security
   - Cybersecurity
 
-tags:
-  - AI jailbreak
-  - LLM jailbreak
-  - prompt injection
-  - jailbreak vs prompt injection
-  - LLM security
-  - AI safety
-  - generative AI
-  - large language models
-  - LLM red teaming
-  - instruction hierarchy
-  - AI security
-  - OWASP
-  - Constitutional Classifiers
-  - prompt injection defense
-  - AI agents
+tags: [AI jailbreak, LLM jailbreak, prompt injection, LLM security, prompt injection defense]
 
 image:
   path: /assets/img/posts/ai-jailbreaks-explained.webp

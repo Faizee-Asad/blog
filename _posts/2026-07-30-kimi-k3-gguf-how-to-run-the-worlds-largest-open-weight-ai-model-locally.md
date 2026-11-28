@@ -11,19 +11,7 @@ categories:
   - AI
   - Large Language Models
 
-tags:
-  - kimi k3
-  - kimi k3 gguf
-  - moonshot ai
-  - unsloth
-  - gguf
-  - llama.cpp
-  - open-weight ai
-  - mixture of experts
-  - kda
-  - local llm
-  - ai models
-  - llm
+tags: [kimi k3, kimi k3 gguf, gguf, llama.cpp, local llm]
 
 image:
   path: /assets/img/posts/kimi-k3-gguf.webp

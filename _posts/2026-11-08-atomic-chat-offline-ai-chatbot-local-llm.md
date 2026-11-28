@@ -11,30 +11,7 @@ categories:
   - AI Tools
   - Open Source
 
-tags:
-  - Atomic Chat
-  - local LLM
-  - offline AI
-  - offline AI chatbot
-  - run LLM locally
-  - local AI
-  - open source AI
-  - AI on laptop
-  - AI on Android
-  - AI on iPhone
-  - Llama
-  - Qwen
-  - DeepSeek
-  - Gemma
-  - TurboQuant
-  - llama.cpp
-  - Ollama alternative
-  - Jan alternative
-  - LM Studio alternative
-  - AI agents
-  - OpenAI compatible API
-  - private AI
-  - Hugging Face
+tags: [Atomic Chat, local LLM, offline AI, private AI, Ollama alternative]
 
 image:
   path: /assets/img/posts/atomic-chat-local-llm-offline-ai.webp

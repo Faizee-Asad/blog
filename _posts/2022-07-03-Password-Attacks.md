@@ -3,7 +3,7 @@ layout: post
 title: "Understanding Password Attacks: A Beginner's Guide"
 date: 2022-07-03 12:00:00 +0530
 categories: [Cybersecurity]
-tags: [password attack, bruteforce, dictionary, hybrid, rainbow table, credential stuffing]
+tags: [password attack, bruteforce, dictionary, rainbow table, credential stuffing]
 comments: true
 image:
   path: /assets/img/posts/password-attacks.webp

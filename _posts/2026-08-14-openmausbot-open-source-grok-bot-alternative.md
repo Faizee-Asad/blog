@@ -11,22 +11,7 @@ categories:
   - AI
   - Open Source
 
-tags:
-  - openmausbot
-  - grok bot alternative
-  - open source ai
-  - ai agents
-  - claude code
-  - openai codex
-  - grok ai
-  - self hosted ai
-  - ai automation
-  - ai chatbot
-  - mcp server
-  - electron
-  - typescript
-  - docker
-  - github projects
+tags: [openmausbot, grok bot alternative, ai agents, self hosted ai, ai chatbot]
 
 image:
   path: /assets/img/posts/openmausbot-open-source-grok-bot-alternative.webp

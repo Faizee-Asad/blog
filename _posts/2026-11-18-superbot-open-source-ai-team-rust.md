@@ -9,25 +9,7 @@ categories:
   - AI Tools
   - Open Source
 
-tags:
-  - SuperBot
-  - Grok Bot
-  - Grok Bot alternative
-  - David Ondrej
-  - self-hosted AI agents
-  - open source AI
-  - AI teammates
-  - Claude Code
-  - Codex
-  - Pi Agent
-  - Rust
-  - VPS
-  - AI agents
-  - agent memory
-  - cron jobs
-  - automation
-  - developer tools
-  - xAI
+tags: [SuperBot, Grok Bot alternative, self-hosted AI agents, AI teammates, Rust]
 
 image:
   path: /assets/img/posts/superbot-open-source-ai-team-rust.webp

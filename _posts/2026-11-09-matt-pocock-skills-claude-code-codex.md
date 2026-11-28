@@ -11,26 +11,7 @@ categories:
   - AI Tools
   - Developer Tools
 
-tags:
-  - Matt Pocock
-  - Matt Pocock skills
-  - Claude Code skills
-  - AI agent skills
-  - coding agents
-  - Codex
-  - GitHub Copilot
-  - Cursor AI
-  - Gemini CLI
-  - AI coding tools
-  - open source AI
-  - developer productivity
-  - grill-me skill
-  - grill-with-docs
-  - TDD
-  - code review
-  - AI development workflow
-  - agentic coding
-  - GitHub
+tags: [Matt Pocock skills, Claude Code skills, AI agent skills, coding agents, agentic coding]
 
 image:
   path: /assets/img/posts/matt-pocock-skills-claude-code-codex.webp

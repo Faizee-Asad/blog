@@ -11,25 +11,7 @@ categories:
   - AI Security
   - Open Source
 
-tags:
-  - AI jailbreak prompts
-  - GitHub jailbreak prompts
-  - jailbreak prompt collection
-  - LLM jailbreak
-  - jailbreak system prompts
-  - Claude jailbreak prompts
-  - Gemini jailbreak prompts
-  - DeepSeek
-  - Qwen
-  - Kimi
-  - Grok
-  - prompt injection
-  - prompt injection defense
-  - LLM security
-  - LLM red teaming
-  - AI safety
-  - instruction hierarchy
-  - cybersecurity
+tags: [AI jailbreak prompts, LLM jailbreak, prompt injection, LLM security, AI safety]
 
 image:
   path: /assets/img/posts/ai-jailbreak-prompts-github-collection.webp

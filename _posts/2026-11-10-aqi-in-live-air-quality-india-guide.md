@@ -11,24 +11,7 @@ categories:
   - Technology
   - Guides
 
-tags:
-  - AQI.in
-  - Live AQI India
-  - Real-Time Air Quality India
-  - Air Quality Index
-  - AQI Scale India
-  - CPCB
-  - CPCB AQI Categories
-  - PM2.5
-  - PM10
-  - Delhi AQI
-  - India Air Pollution
-  - Air Quality Monitoring
-  - Prana Air
-  - SAMEER App
-  - WHO Air Quality Guidelines
-  - Pollution Monitoring
-  - Environmental Technology
+tags: [AQI.in, Live AQI India, Air Quality Index, Delhi AQI, PM2.5]
 
 image:
   path: /assets/img/posts/aqi-in-live-air-quality-india-guide.webp

@@ -9,26 +9,7 @@ categories:
   - AI Tools
   - Open Source
 
-tags:
-  - Pinky
-  - DIYgod
-  - AI phone agent
-  - MCP
-  - Model Context Protocol
-  - Claude Code
-  - Claude Desktop
-  - Codex
-  - Cursor
-  - Android automation
-  - iPhone automation
-  - human in the loop
-  - agent safety
-  - open source
-  - Go
-  - Ollama
-  - local AI
-  - developer tools
-  - AI agents
+tags: [Pinky, AI phone agent, MCP, Android automation, AI agents]
 
 image:
   path: /assets/img/posts/pinky-ai-phone-agent-mcp.webp

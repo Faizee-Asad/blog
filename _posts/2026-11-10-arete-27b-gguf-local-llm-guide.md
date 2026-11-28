@@ -7,23 +7,7 @@ author: Asad Faizee
 categories:
   - AI Tools
   - Local LLMs
-tags:
-  - Arete-27B
-  - Arete-27B-GGUF
-  - Nous Research
-  - AtomicChat
-  - local LLM
-  - GGUF
-  - quantization
-  - Qwen3.8
-  - fine-tuning
-  - value alignment
-  - offline AI
-  - llama.cpp
-  - open source AI
-  - Hugging Face
-  - run LLM locally
-  - AI models
+tags: [Arete-27B, Arete-27B-GGUF, local LLM, GGUF, Nous Research]
 image:
   path: /assets/img/posts/arete-27b-gguf-local-llm.webp
   alt: "Arete-27B-GGUF quantization sizes for running the Arete 27B local LLM offline on your own hardware"

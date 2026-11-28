@@ -11,27 +11,7 @@ categories:
   - Artificial Intelligence
   - Open Source
 
-tags:
-  - OpenMythos
-  - Claude Mythos
-  - Claude Mythos architecture
-  - Anthropic
-  - recurrent-depth transformer
-  - looped transformer
-  - latent reasoning
-  - Mixture of Experts
-  - PyTorch
-  - open source AI
-  - AI research
-  - large language models
-  - LLM architecture
-  - transformer architecture
-  - Parcae
-  - Multi-Latent Attention
-  - Grouped Query Attention
-  - AI reasoning
-  - machine learning
-  - Python
+tags: [OpenMythos, Claude Mythos architecture, recurrent-depth transformer, LLM architecture, transformer architecture]
 
 image:
   path: /assets/img/posts/openmythos-claude-mythos-architecture.webp

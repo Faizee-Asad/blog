@@ -11,22 +11,7 @@ categories:
   - AI
   - Web Development
 
-tags:
-  - oil-motion
-  - ai video
-  - web animations
-  - scroll animations
-  - mouse animations
-  - interactive animations
-  - claude code
-  - minimax h3
-  - typescript
-  - python
-  - open source
-  - frontend development
-  - motion design
-  - gsap
-  - scrolltrigger
+tags: [oil-motion, web animations, scroll animations, ai video, gsap]
 
 image:
   path: /assets/img/posts/oil-motion-ai-web-animations.webp

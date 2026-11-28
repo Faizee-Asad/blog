@@ -11,22 +11,7 @@ categories:
   - SEO
   - Open Source
 
-tags:
-  - openseo
-  - seo tools
-  - semrush alternative
-  - ahrefs alternative
-  - open source seo
-  - keyword research
-  - rank tracking
-  - backlink analysis
-  - site audit
-  - ai seo
-  - mcp
-  - seo automation
-  - dataforseo
-  - docker
-  - self hosting
+tags: [openseo, seo tools, semrush alternative, keyword research, open source seo]
 
 image:
   path: /assets/img/posts/openseo-semrush-alternative.webp

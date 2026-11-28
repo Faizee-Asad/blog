@@ -11,22 +11,7 @@ categories:
   - Open Source
   - AI Tools
 
-tags:
-  - lightpanda
-  - headless browser
-  - lightweight browser
-  - chrome alternative
-  - ai browser
-  - ai agents
-  - browser automation
-  - web scraping
-  - web automation
-  - puppeteer
-  - playwright
-  - model context protocol
-  - mcp server
-  - zig
-  - open source
+tags: [lightpanda, headless browser, ai agents, browser automation, web scraping]
 
 image:
   path: /assets/img/posts/lightpanda-headless-browser-ai-agents.webp

@@ -11,27 +11,7 @@ categories:
   - Technology
   - Open Source
 
-tags:
-  - PhoneBox
-  - Android Dashboard
-  - Old Android Phone
-  - PC Dashboard
-  - Android Desk Dashboard
-  - Reuse Old Android Phone
-  - Old Phone as Monitor
-  - Open Source Tools
-  - Windows Dashboard
-  - Linux Dashboard
-  - macOS Dashboard
-  - System Monitoring
-  - Claude Code
-  - Codex
-  - AI Coding Tools
-  - USB Dashboard
-  - WiFi Dashboard
-  - Android Utilities
-  - Smart Desk Setup
-  - E-Waste Recycling
+tags: [PhoneBox, Reuse Old Android Phone, Android Dashboard, System Monitoring, Open Source Tools]
 
 image:
   path: /assets/img/posts/phonebox-old-android-phone-pc-dashboard.webp

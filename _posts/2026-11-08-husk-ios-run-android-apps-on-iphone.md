@@ -11,25 +11,7 @@ categories:
   - iOS
   - Open Source
 
-tags:
-  - Husk iOS
-  - Husk IPA
-  - Husk Android emulator
-  - run Android apps on iPhone
-  - Android emulator for iPhone
-  - iOS sideloading
-  - APK on iPhone
-  - iPhone emulator
-  - Husk 3.4
-  - Android games on iOS
-  - AltStore
-  - SideStore
-  - TrollStore
-  - JIT compilation
-  - QEMU
-  - LineageOS
-  - open source
-  - iOS 26
+tags: [Husk iOS, run Android apps on iPhone, Android emulator for iPhone, iOS sideloading, APK on iPhone]
 
 image:
   path: /assets/img/posts/husk-ios-android-emulator-iphone.webp

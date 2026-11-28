@@ -11,21 +11,7 @@ categories:
   - AI
   - Prompt Engineering
 
-tags:
-  - chatgpt image generation
-  - gpt-4o
-  - ai image prompts
-  - educational images
-  - prompt engineering
-  - whiteboard prompts
-  - mind map prompts
-  - cheat sheet prompts
-  - flowchart prompts
-  - infographic prompts
-  - blueprint prompts
-  - classroom notes
-  - sticky notes
-  - ai learning
+tags: [chatgpt image generation, gpt-4o, ai image prompts, prompt engineering, ai learning]
 
 image:
   path: /assets/img/posts/chatgpt-image-generation.webp

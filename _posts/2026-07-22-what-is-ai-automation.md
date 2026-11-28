@@ -11,16 +11,7 @@ categories:
   - AI
   - Small Business
 
-tags:
-  - ai automation
-  - small business
-  - business automation
-  - ai tools
-  - workflow automation
-  - productivity
-  - zapier
-  - chatgpt
-  - ai for business
+tags: [ai automation, small business, workflow automation, ai tools, ai for business]
 
 image:
   path: /assets/img/posts/ai-automation-small-business.webp

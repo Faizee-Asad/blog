@@ -11,30 +11,7 @@ categories:
   - Artificial Intelligence
   - Open Source
 
-tags:
-  - kimi-k3-in-c
-  - Kimi K3
-  - run Kimi K3 on CPU
-  - Kimi K3 8GB RAM
-  - 2.78 trillion parameters
-  - C99
-  - C inference engine
-  - LLM inference
-  - local AI
-  - run LLM locally
-  - CPU inference
-  - AI without GPU
-  - MoE
-  - Mixture of Experts
-  - expert streaming
-  - model weight streaming
-  - memory efficient AI
-  - large language models
-  - open source AI
-  - Kimi K3 GGUF
-  - Moonshot AI
-  - AVX2
-  - Apache 2.0
+tags: [kimi-k3-in-c, Kimi K3, run Kimi K3 on CPU, C99, LLM inference]
 
 image:
   path: /assets/img/posts/kimi-k3-in-c-run-2-78t-model-8gb-ram.webp

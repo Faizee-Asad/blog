@@ -11,20 +11,7 @@ categories:
   - AI
   - Large Language Models
 
-tags:
-  - deepseek v4 flash
-  - deepseek-v4-flash-0731
-  - deepseek gguf
-  - unsloth
-  - llama.cpp
-  - gguf
-  - local llm
-  - mixture of experts
-  - moe
-  - ai models
-  - llm
-  - quantization
-  - deepseek ai
+tags: [deepseek v4 flash, deepseek gguf, gguf, llama.cpp, local llm]
 
 image:
   path: /assets/img/posts/deepseek-v4-flash-0731-gguf.webp
