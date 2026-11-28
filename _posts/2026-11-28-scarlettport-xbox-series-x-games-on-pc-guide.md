@@ -11,82 +11,90 @@ image:
   alt: ScarlettPort - run Xbox Series X|S games on PC without an emulator
 ---
 
-Xbox games on PC usually means one of three things: an official PC port, cloud streaming, or an emulator that struggles to reach playable speed. **ScarlettPort** is a fourth option, and it is the most interesting one. It is an open-source compatibility layer that takes your own Xbox Series X|S game dump and runs it **natively** on a Windows PC - the game's own code executes directly on your CPU and graphics card, with no emulator in between.
+I almost scrolled past this one. "Xbox Series X|S game running on PC" - sure, I've heard that before, and it usually ends with a blurry emulator doing 11 frames per second or a cloud stream that falls apart the moment your Wi-Fi blinks.
 
-The project appeared on GitHub on 24 November 2026, built mainly by a single developer, and it has already crossed **1,390 stars**. I went through the documentation, the release notes and the reported test results in detail. Here is what it actually is, how well it runs today, and what you need to try it.
+Then I actually read what **ScarlettPort** does, and I stopped scrolling.
 
-## What is ScarlettPort?
+There's no emulator here at all. ScarlettPort takes your own Xbox Series X|S game dump and just... runs it. On your actual CPU. On your actual graphics card. The game's own code, executing natively on a Windows PC, with a translation layer underneath catching the parts that expect an Xbox.
 
-ScarlettPort is a bring-your-own-copy compatibility layer for Windows, written in Rust and released under the GPL license. The idea is the same one behind Wine and Proton: instead of pretending to be the original hardware, you translate what the game asks for into something the PC can do directly.
+Full honesty before we go further: I haven't run it on my own machine yet. Everything below comes from the project's documentation, its release notes and the test results people have posted. Where a number comes from the developer's own testing, I'll say so. But even on paper, this is one of the most interesting open-source projects I've seen all year - and it appeared, seemingly out of nowhere, on 24 November 2026. Four days later it had over 1,390 stars on GitHub.
 
-Two details matter here:
+## What is ScarlettPort, in plain words?
 
-- **Nothing of the game is included.** The download contains no game code, no assets and no keys. You supply a dump of a copy you legally own. Without your own files, there is nothing to run.
-- **It is built around one specific Xbox Series X|S title**, not the whole Xbox library. This is a focused port layer for a single game, closer to the community recompilation projects for classic consoles than to a general-purpose emulator.
+Think of Wine, or Proton - the tools that let Windows games run on Linux without a Windows install anywhere in sight. ScarlettPort is that idea, pointed at an Xbox.
 
-It ships as two parts: a launcher (`ScarlettPort.exe`) where you pick your game folder and press Play, and the runtime that does the actual translation work underneath.
+It's a compatibility layer for Windows, written in Rust, released under the GPL license, and built mostly by one developer who clearly did not sleep much in November. You get a launcher and a runtime. The launcher is the friendly part - pick your game folder, press Play. The runtime is where the actual sorcery happens.
 
-## How ScarlettPort works (and why it is not an emulator)
+Two things you need to understand about it, because they define the whole project:
 
-An emulator imitates the console's hardware instruction by instruction, which is why emulation is usually slow. This project skips the imitation entirely, because the Xbox Series X|S and a gaming PC are more alike than most people realise:
+**It contains nothing from any game.** No code, no assets, no keys, nothing. You bring a dump of a copy you legally bought, or you have nothing to run. That line matters - it's the difference between a tool and a piracy site.
 
-- **CPU side:** the console's processor is x86-64, the same instruction set as a PC CPU. It runs the game's x64 code directly on your processor, patching the parts that expect Xbox system services.
-- **GPU side:** the console's graphics code is written for AMD's RDNA2 architecture. It recompiles those shaders on the fly into DirectX 12 shaders your own graphics card understands - whether that card is NVIDIA or AMD.
+**It's built for one specific Series X|S title.** Not the Xbox library. Not "your collection". One game, done properly, instead of five hundred games done badly. If that reminds you of the community recompilation projects for old consoles, you're thinking along the right lines.
 
-That native approach is why a project like this can even dream of full speed, and it puts ScarlettPort in the same family as another remarkable one-person engineering project I covered recently, [llm.asm](/posts/llm-asm-qwen3-pure-assembly-guide/) - different field, same spirit of removing every layer between the software and the machine.
+## Why "not an emulator" is the whole point
 
-## ScarlettPort status: can you actually play yet?
+Emulators are slow for a simple reason: they pretend to be the original hardware and translate everything, instruction by instruction, forever. It's like reading a novel through someone who whispers a translation of every single word into your ear. You get the story. Slowly.
 
-This is the honest part, because it is a work in progress - the project itself rates its progress at about **90%**, and the remaining 10% is mostly performance.
+ScarlettPort skips the pretending, because - and this is the part people forget - an Xbox Series X|S and a gaming PC are basically cousins. Same processor family. Very similar graphics hardware. So:
 
-What works today, from the project's own status reports:
+The game's CPU code is x86-64, which is exactly what your PC processor speaks. ScarlettPort runs it directly and only steps in where the code asks for Xbox-specific system services.
 
-- The game **boots, passes the menus, legal screens and saving**, and reaches the game world - in about **178 seconds** on the developer's test setup with the current build.
-- You get **full control in the opening area**, with complete rendering: lit rooms, ambient and sky lighting, full textures.
-- Recent updates fixed the most common crash (running out of memory) and added proper mouse look.
+The graphics are trickier. The console's GPU code is written for AMD's RDNA2 architecture, so the layer recompiles those shaders on the fly into DirectX 12 shaders your own card - NVIDIA or AMD - can execute.
 
-Performance is the catch. On an RTX 3060 12 GB with a Ryzen 5 5600X, the game world ran at roughly **7-8 FPS** in version 0.5.2. Version 0.5.6 then skipped ray-tracing preparation work that was being done even with ray tracing off, and the same scenes jumped to **12.2-13.6 FPS** - about 60% faster, but still short of the project's **30 FPS playable goal**. Long-session stability is also unproven; no marathon runs have been recorded yet.
+No whisper-translator. The book was almost in your language already; someone just had to fix the dialect.
 
-The pace of development is unusually fast: the project went from 0.5.0 to 0.5.7 in a matter of days, with community pull requests landing alongside the author's own fixes.
+It reminds me of [llm.asm](/posts/llm-asm-qwen3-pure-assembly-guide/), another project I covered recently where most of the magic came from deleting layers instead of adding them. Different world, same instinct.
 
-## ScarlettPort requirements
+## Okay, but does it actually run? (the FPS question)
+
+Here's where I stop being impressed and start being honest, because right now ScarlettPort is a brilliant proof of concept - not a way to comfortably play through a game. The project itself puts its progress at around 90%, and most of that missing 10% is performance.
+
+What genuinely works, per the project's status page: the game boots. Menus work. Legal screens, saving, all fine. It reaches the actual game world - took about 178 seconds in the developer's test - and once you're in, you have full control in the opening area. Rooms are lit properly, textures are complete, ambient and sky lighting are there. It looks like the game. That alone is wild.
+
+The frame rate, though. On the developer's test rig - RTX 3060 12 GB, Ryzen 5 5600X - the world ran at about 7 to 8 FPS in version 0.5.2. Painful. Then version 0.5.6 did something clever: it stopped doing ray-tracing preparation work every frame for a feature that was switched off anyway, and the same scenes jumped to 12.2-13.6 FPS. Sixty percent faster from deleting work. Still not the 30 FPS the project calls its playable goal, but the direction is obvious.
+
+Since then, 0.5.7 has gone after the most common crash - the game eating memory until Windows gives up - and mouse look has been fixed up by community contributors. And I do mean *since then* as in *days*. This thing went from 0.5.0 to 0.5.7 faster than most projects ship a hotfix.
+
+## What your PC needs
 
 | Requirement | Details |
 |---|---|
 | Operating system | Windows 10 or 11, 64-bit |
-| CPU | x86-64 with AVX2 (most CPUs from 2013 onward; older Xeons and pre-Haswell Intel chips cannot run it) |
+| CPU | x86-64 with AVX2 (most CPUs from 2013 onward; older Xeons and pre-Haswell Intel chips can't run it) |
 | GPU | DirectX 12 with Shader Model 6.6 and mesh shaders - RTX 20-series / Radeon RX 6000 or newer |
 | RAM | 32 GB recommended. With 16 GB, set a large fixed page file (32-48 GB) on an SSD - running out of memory is the most common crash |
 | Game files | Your own dump of your own legally purchased copy |
 
-## How to install ScarlettPort
+That RAM line is the one that stings. 32 GB as a *recommendation* tells you everything about where the project is right now - it works, but it is not yet polite about resources.
 
-1. Download the latest `ScarlettPort-<version>-win64.zip` from the project's official [GitHub Releases](https://github.com/ZigZagBoi1/ScarlettPort/releases) page - nowhere else.
-2. Right-click the ZIP and choose **Extract All**, keeping `ScarlettPort.exe` and the `runtime` folder side by side.
-3. Run `ScarlettPort.exe`.
-4. Point it at your game folder. It prepares and caches the translated shaders once, then press **Play**.
+## Installing ScarlettPort takes about two minutes
 
-That first shader preparation is a one-time cost; later launches reuse the cache and are faster.
+1. Grab the latest `ScarlettPort-<version>-win64.zip` from the official [GitHub Releases](https://github.com/ZigZagBoi1/ScarlettPort/releases) page. Only from there - more on why below.
+2. Extract it, and keep `ScarlettPort.exe` and the `runtime` folder next to each other.
+3. Run the launcher.
+4. Point it at your game folder and press **Play**.
 
-## Is ScarlettPort legal? Is it safe?
+First launch is slow because the layer has to translate and cache the game's shaders. That's a one-time cost - later starts reuse the cache. Don't judge it by the first boot.
 
-**Legality:** the layer itself is just code, distributed free under the GPL, and it deliberately includes nothing from any game. Its model is "bring your own copy" - you run a dump of a game you bought. That is the same approach used by respected compatibility projects, and it is very different from sites that hand out game files, which you should avoid entirely.
+## The legal and safety questions, because someone always asks
 
-**Safety:** the builds are not code-signed yet, and the runtime loads and rewrites game code in memory - behaviour that makes some antivirus heuristics shout "Trojan". The project addresses this directly:
+Is it legal? The layer itself is just code, and it's deliberately empty of anything belonging to a game. Its entire model is "bring your own copy". That's the same footing as every respected compatibility project, and it's a completely different world from sites handing out game files. Avoid those. Always.
 
-- The official 0.5.5 release scored **0 detections out of 68 engines** on VirusTotal, including Microsoft Defender, according to the project.
-- Every release lists **SHA-256 checksums**, and from 0.5.6 onward carries a signed GitHub build attestation, so you can verify your download was built by the project's own CI from public source.
-- Copies reposted on random sites, Discord servers or video descriptions can be modified - the project's warning is blunt: only download from the official Releases page.
+Is it safe? This one deserves a straight answer, because your antivirus may scream at you. The builds aren't code-signed yet, and the runtime loads game code and rewrites parts of it in memory - which, to a heuristic scanner, looks a lot like what malware does. The project knows this and does the right things about it: the 0.5.5 release scored 0 detections out of 68 engines on VirusTotal (Defender included, per the project), every release publishes SHA-256 checksums, and from 0.5.6 there's a signed GitHub build attestation proving the file came out of the project's own public CI.
 
-## Honest limitations
+The real risk isn't the official build. It's the "ScarlettPort download" links floating around Discord servers and video descriptions, which can contain literally anything. Official Releases page or nothing.
 
-- **One title, not your whole library.** ScarlettPort targets a single Series X|S game. It will not run your other Xbox games.
-- **Not yet smooth.** Roughly 12-14 FPS in the world on a mid-range GPU is a proof of concept, not a comfortable playthrough. The 30 FPS goal is still ahead.
-- **Slow first load.** Reaching the world took about three minutes in the reported test.
-- **Hungry for RAM.** 32 GB is genuinely recommended; memory exhaustion is the top crash.
-- **Windows only, and very new.** The project is days old, so expect rough edges, rapid updates and the occasional broken build.
+## What ScarlettPort can't do yet
 
-## Key facts
+Let me collect the caveats in one place, because I don't want anyone downloading this with the wrong expectations:
+
+- **One game.** Your other Xbox titles will not work. This is a scalpel, not a Swiss army knife.
+- **12-14 FPS is not a playthrough.** It's a milestone. There's a difference, and the project is upfront about it.
+- **Three minutes to reach the world** in the current test results. Bring patience, or coffee.
+- **Windows only.** No Linux, no Steam Deck build right now.
+- **It's days old.** Expect updates that fix things and occasionally break different things. That's the deal with projects moving this fast.
+
+## ScarlettPort at a glance
 
 | Item | Details |
 |---|---|
@@ -99,23 +107,25 @@ That first shader preparation is a one-time cost; later launches reuse the cache
 | Price | Free and open source (voluntary donations) |
 | Repository | [github.com/ZigZagBoi1/ScarlettPort](https://github.com/ZigZagBoi1/ScarlettPort) |
 
-## Frequently asked questions
+## Questions people keep asking
 
 **Is ScarlettPort an emulator?**
-No. An emulator imitates the console's hardware. This layer runs the game's own x86-64 code directly on your PC's CPU and translates its RDNA2 shaders into DirectX 12 for your graphics card, the same philosophy as Wine and Proton.
+No - and this is the hill the project dies on. Nothing is being imitated. The game's own code runs on your hardware; the layer only translates the bits that were written for Xbox services and RDNA2 shaders. Wine for an Xbox game, roughly speaking.
 
-**Which games does ScarlettPort support?**
-One specific Xbox Series X|S title. It is a focused port layer for that game, not a general Xbox emulator, and it includes no game content - you must supply your own dump of your own copy.
+**Which games work with it?**
+One. A single Series X|S title that the layer is purpose-built for. And since it ships with zero game content, "work" also means *your* dump of *your* copy.
 
-**Is ScarlettPort free?**
-Yes. It is open source under the GPL license. The author accepts voluntary donations, which buy nothing extra - no builds, access or perks.
+**Does it cost anything?**
+No. It's GPL open source. The author takes voluntary donations and is oddly clear that they buy you nothing - no early builds, no perks. Just goodwill.
 
-**Why does my antivirus flag ScarlettPort?**
-The releases are not code-signed yet, and the runtime rewrites game code in memory, which resembles malware behaviour to heuristic scanners. Download only from the official GitHub Releases page and verify the SHA-256 checksum or build attestation published with each release.
+**Why did my antivirus flag it?**
+Unsigned build plus a program that rewrites code in memory. That combination trips heuristics everywhere. Verify the checksum or the build attestation from the release notes, and only ever download from the official Releases page.
 
-**Can ScarlettPort run on Linux or Steam Deck?**
-Not currently. It is a Windows 10/11 program built around DirectX 12.
+**Steam Deck? Linux?**
+Not today. Windows and DirectX 12 are the whole foundation right now.
 
-## Bottom line
+## My take
 
-ScarlettPort is not the way to play this game comfortably - not yet. At 12-14 frames per second it is a demonstration, not a replacement for the console. But as a demonstration it is genuinely impressive: a Series X|S title booting on a PC, rendering its world correctly and answering your controller, through a translation layer written mostly by one person in Rust. The project is improving in days, not months - one update already bought 60% more performance. If you follow PC gaming or emulation, ScarlettPort is the project to watch this year, and if you own the game and a capable PC, it is absolutely worth trying for yourself.
+If you own the game and you've got a decent PC, try ScarlettPort - not because it's ready, but because watching a Series X|S title boot on your desktop and respond to your controller, with no console involved, is the kind of thing that reminds you why open source is fun. Just go in with your eyes open: you'll get a slideshow with excellent lighting, not a finished port.
+
+But watch the release page. A project that finds 60% more performance by *deleting* work, fixes its biggest crash a week later, and is pulling in community contributions within days of launch - that project is going somewhere. My bet: the 30 FPS goal falls sooner than people expect, and when it does, ScarlettPort stops being a curiosity and starts being a genuinely new way to play a console game on PC.
